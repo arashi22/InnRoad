@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 56px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px;
+  background-color: #fff; }
+
+.body {
+  display: flex;
+  padding: 30px;
+  margin-top: 56px; }
+
+.itemGroup {
+  min-width: 250px;
+  padding: 10px; }
+  .itemGroup h3 {
+    margin: 0; }
+
+@media only screen and (max-width: 768px) {
+  .body {
+    flex-wrap: wrap; }
+  .itemGroup {
+    min-width: initial;
+    width: 50%; } }
+
+@media only screen and (max-width: 480px) {
+  .itemGroup {
+    width: 100%; } }
